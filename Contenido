@@ -1,23 +1,4 @@
-# ✈️ Proyecto de Análisis de Datos de Vuelos  
-**Proyecto completo de análisis de datos de vuelos usando SQL y DAX. Incluye modelado con tablas de hechos y dimensiones, creación de métricas, y dashboard interactivo en Power BI.**  
+ 
+Proyecto de análisis de datos de vuelos usando SQL y DAX. Incluye modelado con tablas de hechos y dimensiones, creación de métricas, y dashboard interactivo en Power BI. 
 
 
-## 📌 Descripción  
-Este proyecto implementa un flujo completo de análisis de datos:  
-✔ Modelado con tablas de hechos y dimensiones (modelo estrella).  
-✔ Consultas SQL para extracción y métricas.  
-✔ Creación de KPIs con **DAX**.  
-✔ Dashboard interactivo en **Power BI**.  
-
-
-## 🛠 Tecnologías  
-- **SQL Server**  
-- **Power BI**  
-- **DAX**  
-
-
-## 📊 Métricas Principales  
-- Precio promedio por aerolínea  
-- Duración promedio por horario de salida  
-- Ranking de aerolíneas por costo  
-- Vuelos por clase (económica y business)  
