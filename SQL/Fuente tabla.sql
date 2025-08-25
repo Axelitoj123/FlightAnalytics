@@ -47,7 +47,7 @@ ALTER TABLE airflights
 ALTER COLUMN stops INT
 
 --Conociendo la tabla original
---InformaciÛn de la tabla
+--Informaci√≥n de la tabla
 sp_help airflights
 
 --Tabla original
@@ -82,9 +82,9 @@ GROUP BY flight
 
 
 ----CONSIDERACIONES
---El precio que manejaba la tabla original era en rupias(INDIA), por ello lo pase en la moneda Dolares para que sea mas entendible y pr·ctico..
+--El precio que manejaba la tabla original era en rupias(INDIA), por ello lo pase en la moneda Dolares para que sea mas entendible y pr√°ctico..
 --Se procedera armar un modelo BI(estrella) ya que es mas eficiente.
 --Existe repeticion en la tabla original para el campo de airline,flight y class asi que empezare por ahi armando sus tablas(Dimensiones).
---DecidÌ que las tablas de fligths y class colocare como llave IDENTITY y las demas agregare un codigo formado por el nombre de la tabla y orden.
+--Decid√≠ que las tablas de fligths y class colocare como llave IDENTITY y las demas agregare un codigo formado por el nombre de la tabla y orden.
 --Existe algunos codigo de vuelo que cuentan con una sola clase
 
